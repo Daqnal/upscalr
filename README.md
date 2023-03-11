@@ -4,7 +4,7 @@ No AI image upscaler that uses watered down bilinear interpolation to create new
 
 ##
 
-The original inspiration for this project came from the slow, resource heavy nature of AI upscaling. If you want to upscale a say 1080p movie to 4k, you will have to wait days to weeks depending on your hardware. While this algorithm doesn't solve this problem yet, as it is still slow and doesnt support video yet, I will be working to improve the speed. For now, it is just a simplified upscaler that can upscale JPEGs.
+This was a test project of sorts and proof of concept. The upscaled images don't look much better until zoomed in a lot. The method of upscaling I used is bilinear interpolation.
 
 Current limitations:
 - No GUI
@@ -14,6 +14,8 @@ Current limitations:
 
 ## Installation
 
+- Install the "clipboard" module using pip
+- Install Kivy (https://kivy.org/doc/stable/gettingstarted/installation.html)
 - Download the code as a .zip
 - Extract archive
 - Open a terminal in the folder
